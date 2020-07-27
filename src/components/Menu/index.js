@@ -1,6 +1,6 @@
 import React from "react"
 import Logo from "../../assets/img/pbflix.png"
-import Button from './components/Button'
+import Button from '../Button'
 import './style.css'
 
 const Menu = () => {
