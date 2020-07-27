@@ -1,9 +1,9 @@
 import React from 'react' 
 
-const Button = ({ link, label, className }) => {
+const Button = ({ link, children, className }) => {
   return (
     <a className={className} href={link}>
-      {label}
+      {children}
     </a>
   )
 }

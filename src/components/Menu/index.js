@@ -14,7 +14,9 @@ const Menu = () => {
         />
       </a>
 
-      <Button className="ButtonLink" link="/" label="Novo Vídeo" />
+      <Button className="ButtonLink" link="/" >
+        Novo Vídeo
+      </Button>
     </nav>
   )
 }
